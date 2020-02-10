@@ -8,6 +8,23 @@ body {
 	height: 100vh;
 }
 
+.resetButton {
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+button {
+	height: 30px;
+	width:60px;
+	color: black;
+	background: white;
+	font-size: 15px;
+}
+button:hover {
+	cursor: pointer;
+}
+
 
 .title {
 	text-align: center;
