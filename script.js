@@ -87,52 +87,188 @@ function checkforWinner () {
 	if (box1.style.background === "red" && box2.style.background ==="red" && box3.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box4.style.background === "red" && box5.style.background ==="red" && box6.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box7.style.background === "red" && box8.style.background ==="red" && box9.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box1.style.background === "red" && box4.style.background ==="red" && box7.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box2.style.background === "red" && box5.style.background ==="red" && box8.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box3.style.background === "red" && box6.style.background ==="red" && box9.style.background === "red") {
 		timeOutWinRed();
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 		turn.innerText="Red Wins!";
 	} else if (box1.style.background === "red" && box5.style.background ==="red" && box9.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box3.style.background === "red" && box5.style.background ==="red" && box7.style.background === "red") {
 		timeOutWinRed();
 		turn.innerText="Red Wins!";
+		box1.style.background="red"
+		box2.style.background="red"
+		box3.style.background="red"
+		box4.style.background="red"
+		box5.style.background="red"
+		box6.style.background="red"
+		box7.style.background="red"
+		box8.style.background="red"
+		box9.style.background="red"
 	} else if (box4.style.background === "blue" && box5.style.background ==="blue" && box6.style.background === "blue") {
 		timeOutWinBlue();
 		turn.innerText="Blue Wins!";
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 	} else if (box7.style.background === "blue" && box8.style.background ==="blue" && box9.style.background === "blue") {
 		timeOutWinBlue();
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 		turn.innerText="Blue Wins!"; 
 	} else if (box1.style.background === "blue" && box4.style.background ==="blue" && box7.style.background === "blue") {
 		timeOutWinBlue();
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 		turn.innerText="Blue Wins!";
 	} else if (box2.style.background === "blue" && box5.style.background ==="blue" && box8.style.background === "blue") {
 		timeOutWinBlue();
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 		turn.innerText="Blue Wins!";
 	} else if (box3.style.background === "blue" && box6.style.background ==="blue" && box9.style.background === "blue") {
 		timeOutWinBlue();
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 		turn.innerText="Blue Wins!";
 	} else if (box1.style.background === "blue" && box5.style.background ==="blue" && box9.style.background === "blue") {
 		timeOutWinBlue();
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 		turn.innerText="Blue Wins!";
 	} else if (box3.style.background === "blue" && box5.style.background ==="blue" && box7.style.background === "blue") {
 		timeOutWinBlue();
+		box1.style.background="blue"
+		box2.style.background="blue"
+		box3.style.background="blue"
+		box4.style.background="blue"
+		box5.style.background="blue"
+		box6.style.background="blue"
+		box7.style.background="blue"
+		box8.style.background="blue"
+		box9.style.background="blue"
 		turn.innerText="Blue Wins!"
 	} else {
 		checkForTie();
 	}
 }
+
 
 function checkForTie () {
 	if (gameTracker===9) {
@@ -140,16 +276,6 @@ function checkForTie () {
 		timeOutTie();
 	}
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
