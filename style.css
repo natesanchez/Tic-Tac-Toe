@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+	height: 100vh;
+}
+
+
+.title {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+
+.gameArea {
+	height: 450px;
+	width: 450px;
+	background: red;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.box1 {
+	background: blue;
+
+}
+.box1:hover {
+	cursor: pointer;
+}
+
+
+.box2 {
+	background: red;
+}
+.box2:hover {
+	cursor: pointer;
+}
+
+
+.box3 {
+	background: blue;
+}
+.box3:hover {
+	cursor: pointer;
+}
+
+
+.box4 {
+	background: red;
+}
+.box4:hover {
+	cursor: pointer;
+}
+
+
+.box5 {
+	background: blue;
+}
+.box5:hover {
+	cursor: pointer;
+}
+
+
+.box6 {
+	background: red;
+}
+.box6:hover {
+	cursor: pointer;
+}
+
+
+.box7 {
+	background: blue;
+}
+.box7:hover {
+	cursor: pointer;
+}
+
+
+.box8 {
+	background: red;
+}
+.box8:hover {
+	cursor: pointer;
+}
+
+
+.box9 {
+	background: blue;
+}
+.box9:hover {
+	cursor: pointer;
+}
+
