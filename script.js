@@ -22,26 +22,6 @@ let box9 = document.querySelector(".box9")
 
 let gameTracker = 0
 
-let board = [0,0,0,
-			 0,0,0,
-			 0,0,0]
-
-let winningConditions = [
-//rows
-[1,2,3],
-[4,5,6],
-[7,8,9],
-//columns
-[1,4,7],
-[2,5,8],
-[3,6,9],
-//diagonal
-[1,5,9],
-[3,5,7]
-];
-
-
-
 
 resetButton.addEventListener("click",resetGame)
 
@@ -50,6 +30,20 @@ boxes.forEach(item => {
 	item.addEventListener("click", changeColor)
 })
 
+function timeOutWinRed() {
+  setTimeout(function(){ 
+  	alert("Red Wins!"); }, 50);
+}
+
+function timeOutWinBlue() {
+  setTimeout(function(){ 
+  	alert("Blue Wins!"); }, 50);
+}
+
+function timeOutTie() {
+  setTimeout(function(){ 
+  	alert("It's a Tie!"); }, 50);
+}
 
 function tracker () {
 	gameTracker = gameTracker + 1;
@@ -70,6 +64,7 @@ function changeColor (e) {
 }
 
 function resetGame () {
+	gameTracker = 0;
 	box1.style.background="white"
 	box2.style.background="white"
 	box3.style.background="white"
@@ -82,45 +77,49 @@ function resetGame () {
 	boxes.forEach(item => {
 	item.addEventListener("click", changeColor)
 	})
-	gameTracker = 0;
 }
 
 function checkforWinner () {
 	if (box1.style.background === "red" && box2.style.background ==="red" && box3.style.background === "red") {
-		alert("Red Wins!");
+		timeOutWinRed();
 	} else if (box4.style.background === "red" && box5.style.background ==="red" && box6.style.background === "red") {
-		alert("Red Wins!");
+		timeOutWinRed();
 	} else if (box7.style.background === "red" && box8.style.background ==="red" && box9.style.background === "red") {
-		alert("Red Wins!") 
+		timeOutWinRed();
 	} else if (box1.style.background === "red" && box4.style.background ==="red" && box7.style.background === "red") {
-		alert("Red Wins!");
+		timeOutWinRed();
 	} else if (box2.style.background === "red" && box5.style.background ==="red" && box8.style.background === "red") {
-		alert("Red Wins!")
+		timeOutWinRed();
 	} else if (box3.style.background === "red" && box6.style.background ==="red" && box9.style.background === "red") {
-		alert("Red Wins!");
+		timeOutWinRed();
 	} else if (box1.style.background === "red" && box5.style.background ==="red" && box9.style.background === "red") {
-		alert("Red Wins!") 
+		timeOutWinRed();
 	} else if (box3.style.background === "red" && box5.style.background ==="red" && box7.style.background === "red") {
-		alert("Red Wins!");
+		timeOutWinRed();
 	} else if (box4.style.background === "blue" && box5.style.background ==="blue" && box6.style.background === "blue") {
-		alert("Blue Wins!");
+		timeOutWinBlue();
 	} else if (box7.style.background === "blue" && box8.style.background ==="blue" && box9.style.background === "blue") {
-		alert("Blue Wins!") 
+		timeOutWinBlue(); 
 	} else if (box1.style.background === "blue" && box4.style.background ==="blue" && box7.style.background === "blue") {
-		alert("Blue Wins!");
+		timeOutWinBlue();
 	} else if (box2.style.background === "blue" && box5.style.background ==="blue" && box8.style.background === "blue") {
-		alert("Blue Wins!")
+		timeOutWinBlue();
 	} else if (box3.style.background === "blue" && box6.style.background ==="blue" && box9.style.background === "blue") {
-		alert("Blue Wins!");
+		timeOutWinBlue();
 	} else if (box1.style.background === "blue" && box5.style.background ==="blue" && box9.style.background === "blue") {
-		alert("Blue Wins!") 
+		timeOutWinBlue();
 	} else if (box3.style.background === "blue" && box5.style.background ==="blue" && box7.style.background === "blue") {
-		alert("Blue Wins!");
+		timeOutWinBlue();
 	} else {
-		alert("it's a tie!")
+		checkForTie();
 	}
 }
 
+function checkForTie () {
+	if (gameTracker===9) {
+		timeOutTie();
+	}
+}
 
 
 
