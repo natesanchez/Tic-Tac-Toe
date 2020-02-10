@@ -7,25 +7,20 @@
 body {
 	height: 100vh;
 	text-align: center;
+	background: grey;
 }
 
 .turn {
 	margin: 0 auto;
 	height:25px;
 	width:120px;
-	background: red;
+	background: white;
 	padding: 5px;
 	color: black;
 	margin-top: 10px;
+	border: 2px solid black;
 }
 
-.red {
-
-}
-
-.blue {
-
-}
 
 .resetButton {
 	margin-top: 20px;
